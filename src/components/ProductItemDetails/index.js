@@ -156,6 +156,7 @@ class ProductItemDetails extends Component {
         alt="failure view"
       />
       <h1>Product Not Found</h1>
+      <p>oops something wrong!</p>
       <button
         onClick={this.onChangeProductRoute}
         className="addCart"
